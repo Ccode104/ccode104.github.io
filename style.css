@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #003366; /* Dark blue background */
+    color: white;
+}
+
+.catchy-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.firm-name {
+    color: #f39c12; /* Gold for emphasis */
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+
+.sub-heading {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    font-style: italic;
+    color: #ccc;
+}
+
+/* Menu Styling */
+nav {
+    background-color: #003366; /* Dark blue to match the header */
+    text-align: center;
+    padding: 10px 0; /* Add padding around the nav */
+}
+
+ul.horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox to arrange items horizontally */
+    justify-content: center; /* Center menu items */
+}
+
+ul.horizontal-menu li {
+    margin-right: 20px; /* Spacing between menu items */
+}
+
+ul.horizontal-menu li:last-child {
+    margin-right: 0; /* No margin for the last item */
+}
+
+ul.horizontal-menu li a {
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul.horizontal-menu li a:hover {
+    background-color: #f39c12; /* Hover background color */
+    color: #003366; /* Change text color on hover */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Text shadow on hover */
+}
